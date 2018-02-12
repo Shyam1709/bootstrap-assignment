@@ -1,0 +1,107 @@
+body{
+background-color: #072327;
+}
+a{
+color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #33b5e5;
+}
+
+/*---------------------------Css For NavBar---------------------------*/
+.navbar{
+background-color: black;
+}
+.navbar-nav li{
+padding-left: 25px;
+}
+.navbar-nav li a{
+font-size: 20px;
+font-family: 'Montserrat';
+}
+.navbar-brand{
+font-size: 30px;
+font-family: 'Lobster';
+padding-right: 30px;
+}
+.search-movie{
+border: 2px solid black;
+padding-right: 0;
+}
+#movie{
+width: 85%;
+height: 100%;
+box-sizing: border-box;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+border: none;
+padding-left: 7rem;
+font-size: 1rem;
+font-family: Arial,FontAwesome;
+}
+#search-ico{
+width: 10%;
+background: #2196F3;
+color: white;
+padding: inherit;
+border: none;
+cursor: pointer;
+position: absolute;
+}
+
+/*---------------------------Css For Modal---------------------------*/
+#modal-close{
+float: right;
+}
+#forget-password{
+	color: blue;
+}
+
+/*---------------------------Css For Card---------------------------*/
+.card{
+margin-top: 1rem;
+margin-bottom: 1rem;
+box-shadow: 10px 10px 5px grey;
+}
+.card-body{
+background-color: #00b8d4;
+padding:0rem;
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 73%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+font-size: 2rem;
+background-color: rgba(0,0,0,0.6);
+}
+.card:hover .overlay {
+opacity: 1;
+}
+.card-title{
+font-family: Roboto, sans-serif;
+font-weight: 200;
+text-transform: uppercase;
+}
+
+/*-------------Css For Media Queries----------*/
+@media (min-width: 992px) {
+.carousel-set{
+width: 70%;
+margin:0 auto;
+}
+}
+
+/*-----------Css For Footer-----------------*/
+.footer-set{
+color: white;
+background-color: rgb(47,79,79)
+}
+
+/*---------------Css Terminates Here----*/
